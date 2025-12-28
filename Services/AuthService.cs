@@ -2,7 +2,7 @@
 
 namespace MSK_PC_Controller.Services;
 
-internal sealed class AuthService
+public sealed class AuthService
 {
     public bool CheckLogin(string user, string pass)
     {
