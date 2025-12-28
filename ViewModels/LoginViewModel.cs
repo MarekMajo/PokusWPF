@@ -4,7 +4,7 @@ using MSK_PC_Controller.Services;
 
 namespace MSK_PC_Controller.ViewModels;
 
-internal partial class LoginViewModel : ObservableObject
+public partial class LoginViewModel : ObservableObject
 {
     private readonly AuthService _auth;
 

@@ -8,7 +8,7 @@ using System.Data;
 
 namespace MSK_PC_Controller.ViewModels;
 
-internal partial class MainViewModel : ObservableObject
+public partial class MainViewModel : ObservableObject
 {
     public string UserName { get; }
     private readonly PcService _pcService = new();

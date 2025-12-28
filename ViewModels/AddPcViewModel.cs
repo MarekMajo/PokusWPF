@@ -7,7 +7,7 @@ using System.Net.Sockets;
 
 namespace MSK_PC_Controller.ViewModels;
 
-internal partial class AddPcViewModel : ObservableObject
+public partial class AddPcViewModel : ObservableObject
 {
     private readonly PcService _pcService;
 
