@@ -10,6 +10,8 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
             <TextBlock VerticalAlignment="Center" FontSize="18" FontWeight="SemiBold"
@@ -17,7 +19,13 @@
 
             <Button Grid.Column="1" Content="Theme"
                     Command="{Binding ToggleThemeCommand}"
-                    Margin="8,0,0,0"/>
+                    Margin="0,0,8,0"/>
+
+            <Button Grid.Column="2" Content="Style"
+                    Margin="0,0,8,0"/>
+
+            <Button Grid.Column="3" Content="Add PC"
+                    Command="{Binding AddPcCommand}"/>
         </Grid>
 
         <!-- Tiles -->

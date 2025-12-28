@@ -3,7 +3,7 @@ using MSK_PC_Controller.Services;
 
 namespace MSK_PC_Controller.ViewModels;
 
-internal partial class MainWindowViewModel : ObservableObject
+public partial class MainWindowViewModel : ObservableObject
 {
     [ObservableProperty]
     private object _currentViewModel;
