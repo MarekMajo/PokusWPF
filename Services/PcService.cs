@@ -3,7 +3,7 @@ using Microsoft.Data.SqlClient;
 
 namespace MSK_PC_Controller.Services;
 
-internal sealed class PcService
+public sealed class PcService
 {
     public void InsertUserPc(string userName, string ip, string name)
     {
